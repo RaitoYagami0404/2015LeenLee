@@ -1,0 +1,38 @@
+//Remove inline CSS in future
+doctype html5
+html
+  head 
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible",content="chrome=1")
+    meta(name="viewport",content="width=device-width,initial-scale=1")
+    //meta(http-equiv="refresh" content="90")
+    title Home
+  body(style="text-align:center;")
+
+    link(href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/cosmo/bootstrap.min.css", rel="stylesheet")
+    link(href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", rel="stylesheet")
+
+    //This is where our main content is inserted into.
+    br
+    a.logo(href="http://www.leenlee.biz")
+      img(src="img/logofull.png",height=80)
+    br
+    h1 We have moved!
+    h4 Find us at our new office here: 
+    br
+    .container
+      .col-md-7
+        a(href="https://www.google.com.my/maps/place/20+Mactaggart+Rd,+Singapore+368079/@1.3348451,103.8853049,17z/data=!3m1!4b1!4m2!3m1!1s0x31da178e09f4a2d3:0x10348388134855e4?hl=en")
+          img(src="img/map.png",height=300)
+      .col-md-5.left
+        h4
+          b LEE & LEE CONSULTANTS PTE LTD
+        h4 20 MacTaggart Road #08-02
+        h4 Singapore 368079
+        h4 Tel : 62806580  Fax : 62806576
+        h4 Email : admin@leenlee.biz
+    br
+    .container
+      a.btn.btn-success(href="http://www.leenlee.biz")
+        | Find out more about our company and the services we provide
+
